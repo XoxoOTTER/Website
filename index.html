@@ -1,21 +1,65 @@
 <!doctype html>
-            
+
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<title>my index page</title>
+    <meta charset="utf-8">
+    <title>my index page</title>
 </head>
-            
+<style>
+    body {
+        background-color:rgb(97, 65, 108);
+    }
+    body { 
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; 
+}
+#two {
+        background: rgb(143, 108, 168);
+        color: rgb(223, 128, 223);
+        box-shadow:5px 10px 0px rgb(73, 50, 81);
+        border-bottom: 20px rgb(255, 255, 255);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li a {
+    display: block;
+    background: white;
+    width: 150px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color:black;
+    box-shadow:5px 5px 0px rgb(92, 61, 103);
+    
+}
+
+li a:hover{
+    background: rgb(240, 196, 255);
+    color: rgb(223, 128, 223);
+}
+</style>
 <body>
-    <img src="BLUEEYE.gif" alt="Blue Eye Samurai Self-Insert">
-<h1>Welcome!</h1>
-<p>Feeling mischievous?</p>
-<p>Click on the link below!</p>
+    <div id="one"></div>
+    <img src="BLUEEYE.png" alt="Blue Eye Samurai Self-Insert">
+    <h1>Welcome!</h1>
+
+    <div id="two">
+    <p>This is my index page</p>
+    <p>Links to my other pages are below!</p>
+    
+    <ul>
+        <li><a href="textx.html">Text Page</a></li>
+        <li><a href=links.html>Links Pages</a>
+            <li><a href=boxes.html>boxes page</a>
+                <li><a href=class-id.html>Class-ID Page</a>
+            </li>
 
 
-<ul>
-    <li><a href="textx.html">Magical text</a></li>
-</ul>        
+
+    </ul>
 </body>
+
 </html>
