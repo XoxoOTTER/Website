@@ -1,0 +1,73 @@
+<!doctype html>  
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<title>boxes pages</title>
+<style>
+    div { background:rgb(192, 255, 196);
+        width: 100px;
+        height: 200px;
+        border:2px dotted #07958c;
+        padding:20px;
+        margin:20px;
+        border-radius:20px;
+        box-shadow:10px 10px 5px seagreen;
+    }
+
+    #two {
+        background: rgb(175, 255, 168);
+        box-shadow:10px 10px 0px rgb(120, 159, 94);
+        border-bottom: 20px rgb(144, 245, 90);
+    }
+    #three {
+        background: rgb(170, 224, 145);
+        height: 300px;
+        width:100px;
+        border-radius: 200px;
+        border:10px dashed rgb(130, 207, 115);
+        box-shadow:10px 10px 20px rgb(76, 109, 72)
+    }
+    #four {
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+#one {
+    position: static;
+}
+#two {
+    position: relative;
+    left: 300px;
+    top: -100px;
+}
+#three {
+    background-color: green;
+    position: absolute;
+    left: 200px;
+}
+#four {
+    background-color: rgb(144, 176, 112)
+}
+#five {
+    background-color:aquamarine;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+</style>
+
+</head>
+ 
+<body>
+
+
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+<div id="five"></div>
+
+</body>
+</html>
