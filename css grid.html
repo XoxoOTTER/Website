@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>css grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 200px 2fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "header header header"
+                "center main lol"
+                "footer footer footer";
+        }
+
+        .header {
+            grid-area: header;
+            background-color: lightblue;
+            font-size: 25px;
+            
+            
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color:rgb(216, 243, 252);
+            border: 4px dotted;
+            border-color: white;
+            font-size: 10px;
+
+        }
+
+        .center {
+            grid-area: center;
+            background-color: aliceblue;
+            border: 4px dashed;
+            border-color:white;
+        }
+
+        .main {
+            grid-area: main;
+            background-color:aliceblue;
+            border: 4px dashed;
+            border-color: white;
+        }
+
+        .lol {
+            grid-area: lol;
+            background-color:aliceblue;
+            border: 4px dashed;
+            border-color: white;
+        }
+        .hover:center {
+            color: lightslategray;
+            text-decoration: overline;
+        }
+
+        </div>
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header"><h1>SUPER COOL NEWS ARTICLE</h1></div>
+        <div class="footer"><h1>Here are random words, words with no purpose. Maybe just wants to bother you 
+            and judge you, hope you enjoy the feeling of being judged by words.</h1></div>
+        <div class="center"><h1>This is a box</h1></div>
+        <div class="main"><h1>This is another box</h1></div>
+        <div class="lol"><h1>This is also a box</h1></div>
+    </div>
+
+</body>
+
+</html>
