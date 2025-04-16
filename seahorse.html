@@ -6,74 +6,99 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" href="favicon2.ico" />
   <title>Seahorse Serenity</title>
-  
+
   <style>
-       body {
-        background-color:rgb(144, 185, 216);
-            display: grid;
-            grid-template-columns: 1fr 2fr 1fr;
-            grid-template-rows: 200px 1fr 1fr;
-            gap: 5px 10px;
-            font-size: 20px;
-            grid-auto-flow: row;
-            grid-template-areas:
-                "header header header"
-                "center main lol"
-                "footer footer footer";
-        }
+    body {
+      background-color: #616d75;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 100px 1fr 170px;
+      gap: 5px 10px;
+      font-size: 20px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "header header header"
+        "center main lol"
+        "footer footer footer";
+    }
 
-       header {
-            grid-area: header;
-            background-color: rgb(188, 238, 255);
-            font-size: 25px;
-            border: 5px dashed;
-            border-color:rgb(255, 255, 255);
+    header {
+      grid-area: header;
+      background-image: url("seahorselogooo.png");
+      font-size: 25px;
+      color: white;
+      border: 3px dashed;
+      border-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
 
-        }
+    }
 
-        footer {
-            grid-area: footer;
-            gap: 2px 2px;
-            background-color:rgb(157, 206, 224);
-            border: 4px dashed;
-            border-color: rgb(255, 255, 255);
-            font-size: 15px;
+    footer {
+      grid-area: footer;
+      gap: 2px 2px;
+      background-image: url("seahorselogooo.png");
+      image
+      color: white;
+      border: 2px dashed;
+      border-color: rgb(255, 255, 255);
+      font-size: 15px;
 
-        }
+    }
 
-        .center {
-            grid-area: center;
-            background-color: aliceblue;
-            border: 4px dashed;
-            border-color:white;
-        }
+    .center {
+      grid-area: center;
+      background-color: aliceblue;
+      border: 4px dashed;
+      border-color: white;
+    }
 
-        .main {
-            grid-area: main;
-            background-color:aliceblue;
-            border: 4px dashed;
-            border-color: white;
-        }
+    .main {
+      grid-area: main;
+      background-color: aliceblue;
+      border: 4px dashed;
+      border-color: white;
+    }
 
-        .lol {
-            grid-area: lol;
-            background-color:aliceblue;
-            border: 4px dashed;
-            border-color: white;
-        }
-        div.hover: {
-            color: lightslategray;
-            text-decoration: overline;
-        }
+    .lol {
+      grid-area: lol;
+      background-color: aliceblue;
+      border: 4px dashed;
+      border-color: white;
+    }
 
-        </div>
+    ul.hover: {
+      color: lightslategray;
+      text-decoration: overline;
+    }
+    ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li a {
+    display: block;
+    background: white;
+    width: 150px;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    color:black;
+    box-shadow:5px 5px 0px #40474d;
+}
+
+li a:hover{
+    background: #ffe8e2;
+    color: #896a64;
+}
+    </div>
   </style>
 </head>
 
 <body>
   <header>
     <h1>Sea Horse Serenity</h1>
-    <img src="Seahorselogo.pn g" alt="seahorses are fun" />
+    <img src="Seahorselogo.png" alt="seahorses are fun" />
   </header>
 
   <nav>
@@ -89,7 +114,7 @@
   </nav>
 
   <article>
-    
+
     <h1>SEAHORSE FACTS</h1>
     <h2>Sea Horse Name Origin</h2>
     <p>The Latin name for seahorse is Hippocampus which means "Horse
@@ -139,7 +164,7 @@
       <li><a href="http://www.allthesea.com/Seahorses.html" target="_blank">All
           The Sea</a></li>
     </ul>
-    <p>&copy; Seahorse Serenity 2025</p>
+    <p> &copy; Seahorse Serenity 2025</p>
   </footer>
 </body>
 
